@@ -19,7 +19,7 @@ const CustomTooltip = ({ active, payload }: any) => {
     const item = payload[0].payload;
     return (
       <div className="bg-white p-3 border border-slate-100 rounded-lg shadow-md text-sm">
-        <p className="font-semibold text-slate-900">{item.comunidad}</p>
+        <p className="font-bold text-slate-900">{item.comunidad}</p>
         <p className="text-slate-500 mt-1">
           Precio: <span className="font-semibold text-slate-800">{item.precioMedio} €/kg</span>
         </p>

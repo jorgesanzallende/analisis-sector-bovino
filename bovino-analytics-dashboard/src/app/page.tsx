@@ -3,6 +3,7 @@ import { getDashboardData } from '@/lib/data/api';
 import KPICard from '@/components/ui/KPICard';
 import { Map, TrendingUp, Coins } from 'lucide-react';
 import ClusterScatterChart from '@/components/charts/ClusterScatterChart';
+import ProductionBarChart from '@/components/charts/ProductionBarChart';
 
 export default function Home() {
   const data = getDashboardData();
@@ -48,12 +49,20 @@ export default function Home() {
           />
         </section>
 
-        {/* Charts Section */}
-        <section className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 space-y-4">
-          <h2 className="text-xl font-semibold text-slate-900">
-            Distribución de Clústeres (Precio vs. Producción)
-          </h2>
-          <ClusterScatterChart />
+        {/* Charts Grid */}
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 space-y-4">
+            <h2 className="text-xl font-semibold text-slate-900">
+              Distribución de Clústeres (Precio vs. Producción)
+            </h2>
+            <ClusterScatterChart />
+          </div>
+          <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 space-y-4">
+            <h2 className="text-xl font-semibold text-slate-900">
+              Ranking de Producción de Carne por CCAA (t)
+            </h2>
+            <ProductionBarChart />
+          </div>
         </section>
 
         {/* Data Table Preview */}
