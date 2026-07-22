@@ -1,0 +1,23 @@
+[
+  {
+    "comunidad": "Castilla y León",
+    "anio": 2023,
+    "produccionCarne": 85000,
+    "precioMedio": 4.5,
+    "clusterSostenibilidad": "Alto"
+  },
+  {
+    "comunidad": "Galicia",
+    "anio": 2023,
+    "produccionCarne": 92000,
+    "precioMedio": 4.8,
+    "clusterSostenibilidad": "Medio"
+  },
+  {
+    "comunidad": "Extremadura",
+    "anio": 2023,
+    "produccionCarne": 54000,
+    "precioMedio": 4.2,
+    "clusterSostenibilidad": "Alto"
+  }
+]
