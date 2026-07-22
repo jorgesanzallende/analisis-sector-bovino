@@ -1,23 +1,121 @@
 [
   {
+    "comunidad": "Andalucía",
+    "anio": 2023,
+    "produccionCarne": 25226,
+    "precioMedio": 9.91,
+    "clusterSostenibilidad": "Alto"
+  },
+  {
+    "comunidad": "Aragón",
+    "anio": 2023,
+    "produccionCarne": 39086,
+    "precioMedio": 11.67,
+    "clusterSostenibilidad": "Alto"
+  },
+  {
+    "comunidad": "Asturias",
+    "anio": 2023,
+    "produccionCarne": 14544,
+    "precioMedio": 9.61,
+    "clusterSostenibilidad": "Medio"
+  },
+  {
+    "comunidad": "Baleares",
+    "anio": 2023,
+    "produccionCarne": 1858,
+    "precioMedio": 5.63,
+    "clusterSostenibilidad": "Medio"
+  },
+  {
+    "comunidad": "Canarias",
+    "anio": 2023,
+    "produccionCarne": 3144,
+    "precioMedio": 2.65,
+    "clusterSostenibilidad": "Medio"
+  },
+  {
+    "comunidad": "Cantabria",
+    "anio": 2023,
+    "produccionCarne": 9937,
+    "precioMedio": 11.1639327764919,
+    "clusterSostenibilidad": "Medio"
+  },
+  {
+    "comunidad": "Castilla-La Mancha",
+    "anio": 2023,
+    "produccionCarne": 55572,
+    "precioMedio": 7.32,
+    "clusterSostenibilidad": "Alto"
+  },
+  {
     "comunidad": "Castilla y León",
     "anio": 2023,
-    "produccionCarne": 85000,
-    "precioMedio": 4.5,
+    "produccionCarne": 122081,
+    "precioMedio": 6.07,
+    "clusterSostenibilidad": "Alto"
+  },
+  {
+    "comunidad": "Cataluña",
+    "anio": 2023,
+    "produccionCarne": 129643,
+    "precioMedio": 2.99,
+    "clusterSostenibilidad": "Alto"
+  },
+  {
+    "comunidad": "Extremadura",
+    "anio": 2023,
+    "produccionCarne": 32355,
+    "precioMedio": 12.0,
     "clusterSostenibilidad": "Alto"
   },
   {
     "comunidad": "Galicia",
     "anio": 2023,
-    "produccionCarne": 92000,
-    "precioMedio": 4.8,
+    "produccionCarne": 96414,
+    "precioMedio": 5.75,
     "clusterSostenibilidad": "Medio"
   },
   {
-    "comunidad": "Extremadura",
+    "comunidad": "Madrid",
     "anio": 2023,
-    "produccionCarne": 54000,
-    "precioMedio": 4.2,
-    "clusterSostenibilidad": "Alto"
+    "produccionCarne": 37299,
+    "precioMedio": 1.74,
+    "clusterSostenibilidad": "Medio"
+  },
+  {
+    "comunidad": "Murcia",
+    "anio": 2023,
+    "produccionCarne": 16234,
+    "precioMedio": 7.24,
+    "clusterSostenibilidad": "Medio"
+  },
+  {
+    "comunidad": "Navarra",
+    "anio": 2023,
+    "produccionCarne": 17653,
+    "precioMedio": 4.22,
+    "clusterSostenibilidad": "Medio"
+  },
+  {
+    "comunidad": "País Vasco",
+    "anio": 2023,
+    "produccionCarne": 10149,
+    "precioMedio": 5.36,
+    "clusterSostenibilidad": "Medio"
+  },
+  {
+    "comunidad": "La Rioja",
+    "anio": 2023,
+    "produccionCarne": 2215,
+    "precioMedio": 11.61534988713318,
+    "clusterSostenibilidad": "Medio"
+  },
+  {
+    "comunidad": "Comunidad Valenciana",
+    "anio": 2023,
+    "produccionCarne": 86815,
+    "precioMedio": 0.36,
+    "clusterSostenibilidad": "Medio"
   }
 ]
