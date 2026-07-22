@@ -2,6 +2,7 @@ import React from 'react';
 import { getDashboardData } from '@/lib/data/api';
 import KPICard from '@/components/ui/KPICard';
 import { Map, TrendingUp, Coins } from 'lucide-react';
+import ClusterScatterChart from '@/components/charts/ClusterScatterChart';
 
 export default function Home() {
   const data = getDashboardData();
@@ -45,6 +46,14 @@ export default function Home() {
             })}
             icon={<Coins className="w-6 h-6 text-amber-500" />}
           />
+        </section>
+
+        {/* Charts Section */}
+        <section className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 space-y-4">
+          <h2 className="text-xl font-semibold text-slate-900">
+            Distribución de Clústeres (Precio vs. Producción)
+          </h2>
+          <ClusterScatterChart />
         </section>
 
         {/* Data Table Preview */}
