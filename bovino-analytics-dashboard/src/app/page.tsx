@@ -4,6 +4,7 @@ import KPICard from '@/components/ui/KPICard';
 import { Map, TrendingUp, Coins } from 'lucide-react';
 import ClusterScatterChart from '@/components/charts/ClusterScatterChart';
 import ProductionBarChart from '@/components/charts/ProductionBarChart';
+import SpainMap from '@/components/charts/SpainMap';
 
 export default function Home() {
   const data = getDashboardData();
@@ -63,6 +64,14 @@ export default function Home() {
             </h2>
             <ProductionBarChart />
           </div>
+        </section>
+
+        {/* Map Section */}
+        <section className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 space-y-4">
+          <h2 className="text-xl font-semibold text-slate-900">
+            Distribución Geográfica de Sostenibilidad (Clústeres)
+          </h2>
+          <SpainMap />
         </section>
 
         {/* Data Table Preview */}
