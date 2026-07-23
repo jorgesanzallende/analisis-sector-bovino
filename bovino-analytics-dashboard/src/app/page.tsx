@@ -6,6 +6,7 @@ import ClusterScatterChart from '@/components/charts/ClusterScatterChart';
 import ProductionBarChart from '@/components/charts/ProductionBarChart';
 import SpainMap from '@/components/charts/SpainMap';
 import MacroTrendChart from '@/components/charts/MacroTrendChart';
+import StructuralStackedBarChart from '@/components/charts/StructuralStackedBarChart';
 
 export default function Home() {
   const data = getDashboardData();
@@ -112,6 +113,14 @@ export default function Home() {
               </tbody>
             </table>
           </div>
+        </section>
+
+        {/* Structural Section */}
+        <section className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 space-y-4 col-span-full">
+          <h2 className="text-xl font-semibold text-slate-900">
+            Composición del Modelo Productivo por CCAA (2023)
+          </h2>
+          <StructuralStackedBarChart />
         </section>
 
         {/* Trend Section */}

@@ -12,3 +12,13 @@ export interface TrendData {
   precioMedio: number;
 }
 
+export interface StructuralData {
+  comunidad: string;
+  intensivaCebo: number;
+  extensivaLeche: number;
+  extensivaCarne: number;
+  mixta: number;
+  otras: number;
+}
+
+

@@ -1,0 +1,19 @@
+[
+  {"comunidad": "Andalucía", "intensivaCebo": 642, "extensivaLeche": 650, "extensivaCarne": 6932, "mixta": 76, "otras": 1462},
+  {"comunidad": "Aragón", "intensivaCebo": 2150, "extensivaLeche": 66, "extensivaCarne": 1242, "mixta": 122, "otras": 863},
+  {"comunidad": "Asturias", "intensivaCebo": 558, "extensivaLeche": 1464, "extensivaCarne": 12554, "mixta": 446, "otras": 510},
+  {"comunidad": "Baleares", "intensivaCebo": 184, "extensivaLeche": 144, "extensivaCarne": 469, "mixta": 34, "otras": 146},
+  {"comunidad": "Canarias", "intensivaCebo": 130, "extensivaLeche": 70, "extensivaCarne": 296, "mixta": 461, "otras": 22},
+  {"comunidad": "Cantabria", "intensivaCebo": 86, "extensivaLeche": 967, "extensivaCarne": 5420, "mixta": 2217, "otras": 2194},
+  {"comunidad": "Castilla La Mancha", "intensivaCebo": 984, "extensivaLeche": 212, "extensivaCarne": 2002, "mixta": 3, "otras": 1008},
+  {"comunidad": "Castilla y León", "intensivaCebo": 3038, "extensivaLeche": 774, "extensivaCarne": 11838, "mixta": 362, "otras": 6588},
+  {"comunidad": "Cataluña", "intensivaCebo": 2410, "extensivaLeche": 452, "extensivaCarne": 2032, "mixta": 23, "otras": 1715},
+  {"comunidad": "Extremadura", "intensivaCebo": 574, "extensivaLeche": 184, "extensivaCarne": 14762, "mixta": 46, "otras": 332},
+  {"comunidad": "Galicia", "intensivaCebo": 5640, "extensivaLeche": 5938, "extensivaCarne": 19156, "mixta": 384, "otras": 380},
+  {"comunidad": "La Rioja", "intensivaCebo": 67, "extensivaLeche": 10, "extensivaCarne": 277, "mixta": 2, "otras": 86},
+  {"comunidad": "Madrid", "intensivaCebo": 188, "extensivaLeche": 50, "extensivaCarne": 1646, "mixta": 29, "otras": 326},
+  {"comunidad": "Murcia", "intensivaCebo": 314, "extensivaLeche": 25, "extensivaCarne": 36, "mixta": 3, "otras": 76},
+  {"comunidad": "Navarra", "intensivaCebo": 168, "extensivaLeche": 132, "extensivaCarne": 1312, "mixta": 2, "otras": 492},
+  {"comunidad": "País Vasco", "intensivaCebo": 242, "extensivaLeche": 212, "extensivaCarne": 4807, "mixta": 44, "otras": 235},
+  {"comunidad": "Valencia", "intensivaCebo": 148, "extensivaLeche": 22, "extensivaCarne": 397, "mixta": 2, "otras": 437}
+]
