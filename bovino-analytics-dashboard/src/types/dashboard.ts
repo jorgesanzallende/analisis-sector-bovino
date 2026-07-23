@@ -5,3 +5,10 @@ export interface BovineData {
   precioMedio: number;
   clusterSostenibilidad: string;
 }
+
+export interface TrendData {
+  anio: number;
+  produccionTotal: number;
+  precioMedio: number;
+}
+

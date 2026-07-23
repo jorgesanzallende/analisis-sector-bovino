@@ -5,6 +5,7 @@ import { Map, TrendingUp, Coins } from 'lucide-react';
 import ClusterScatterChart from '@/components/charts/ClusterScatterChart';
 import ProductionBarChart from '@/components/charts/ProductionBarChart';
 import SpainMap from '@/components/charts/SpainMap';
+import MacroTrendChart from '@/components/charts/MacroTrendChart';
 
 export default function Home() {
   const data = getDashboardData();
@@ -111,6 +112,14 @@ export default function Home() {
               </tbody>
             </table>
           </div>
+        </section>
+
+        {/* Trend Section */}
+        <section className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 space-y-4 col-span-full">
+          <h2 className="text-xl font-semibold text-slate-900">
+            Evolución Macroeconómica (2011-2023)
+          </h2>
+          <MacroTrendChart />
         </section>
 
       </div>
